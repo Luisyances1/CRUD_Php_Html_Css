@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    font-family: Cambria;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0;
+    background: rgb(11, 37, 153);
+}
+
+.cabecera img{
+  min-height: auto;
+  min-height: auto;
+  max-width: 100%;
+}
+.navegacion{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.container{
+    border: 2px solid #333;
+    background: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float:left;
+    
+}
+  
+li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 56px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rgb(26, 6, 6);
+}
+
